@@ -1,0 +1,9 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+admin.peers
+admin.addPeer("enode://ea7ec6ddfb44b9d80a6918c061d1f0faaf85dbb3a11e3a721750d5f3cd4e2b98d37f6e38df6f6ad64aa326485d12cae19c7e18a3c9b432b4bc5c0c55035d567c@[::]:30306")
+admin.addPeer("enode://d8b1b3ba49a14f1076bc3c890fc812e41150b7b4a229e7e9dff3846692932e20bb86bc007fe55eabe36aee1bba6967bbd84d170f0e7c01f5f73e8e2f3c8c4916@[::]:30309")
+admin.peers
+eth.getBalance(eth.coinbase)
+admin.peers
+dpos

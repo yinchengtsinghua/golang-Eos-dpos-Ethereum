@@ -1,0 +1,36 @@
+=============== Jan 5, 2019 (CST) ===============
+14:12:42.174485 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:12:42.188596 db@open opening
+14:12:42.197523 version@stat F·[] S·0B[] Sc·[]
+14:12:42.202525 db@janitor F·2 G·0
+14:12:42.202525 db@open done T·13.9283ms
+14:13:35.286917 db@close closing
+14:13:35.288002 db@close done T·1.0841ms
+=============== Jan 5, 2019 (CST) ===============
+14:13:44.284887 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:13:44.285802 version@stat F·[] S·0B[] Sc·[]
+14:13:44.285802 db@open opening
+14:13:44.285802 journal@recovery F·1
+14:13:44.288787 journal@recovery recovering @1
+14:13:44.292806 memdb@flush created L0@2 N·94 S·1KiB "n:\x11..ail,v92":"version,v1"
+14:13:44.297039 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:13:44.316812 db@janitor F·3 G·0
+14:13:44.316812 db@open done T·31.0101ms
+14:36:11.983727 db@close closing
+14:36:11.985679 db@close done T·1.9515ms
+=============== Jan 5, 2019 (CST) ===============
+14:36:46.389868 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:36:46.392273 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:36:46.392273 db@open opening
+14:36:46.392871 journal@recovery F·1
+14:36:46.393999 journal@recovery recovering @3
+14:36:46.406906 memdb@flush created L0@5 N·2028 S·19KiB "n:\x11..ail,v2122":"n:\xa9..ail,v96"
+14:36:46.411010 version@stat F·[2] S·20KiB[20KiB] Sc·[0.50]
+14:36:46.431916 db@janitor F·4 G·0
+14:36:46.431916 db@open done T·39.6431ms
+14:36:50.642143 table@compaction L0·2 -> L1·0 S·20KiB Q·2136
+14:36:50.646962 table@build created L1@8 N·7 S·652B "n:\x11..ail,v2122":"version,v1"
+14:36:50.646962 version@stat F·[0 1] S·652B[0B 652B] Sc·[0.00 0.00]
+14:36:50.650143 table@compaction committed F-1 S-19KiB Ke·0 D·2115 T·8.0002ms
+14:36:50.711079 table@remove removed @5
+14:36:50.712969 table@remove removed @2
